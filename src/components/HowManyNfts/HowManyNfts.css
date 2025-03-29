@@ -1,0 +1,82 @@
+#how-many-nfts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--s32);
+  width: 100%;
+  .get-donsharky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--s32);
+    width: 100%;
+    strong {
+      color: #022731;
+      font-size: var(--s24);
+      font-weight: 700;
+      font-family: Montserrat;
+      line-height: var(--s24);
+      text-align: center;
+    }
+    .mint-nft-btn {
+      padding: var(--s12);
+      background: #022731;
+      border: none;
+      border-radius: 35px;
+      width: calc(425 * 100vw / 1440);
+      font-family: Montserrat;
+      font-size: var(--s16);
+      font-weight: 600;
+      line-height: var(--s20);
+      text-align: center;
+      color: #f0f0f0;
+    }
+
+    .select-buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 33%;
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #022731;
+        border: none;
+        border-radius: var(--s4);
+        color: white;
+        width: var(--s50);
+        height: var(--s50);
+        font-size: var(--s32);
+        font-weight: 700;
+      }
+      span {
+        color: #022731;
+        font-size: var(--s32);
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #how-many-nfts {
+    .get-donsharky {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .select-buttons {
+        width: 90%;
+      }
+      .mint-nft-btn {
+        width: 90%;
+      }
+    }
+
+   
+
+  }
+}
