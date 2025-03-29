@@ -16,4 +16,4 @@ https://docs.abs.xyz/abstract-global-wallet/agw-react/hooks/useGlobalWalletSigne
 
 - Go to the file: /src/texts/texts.json
 - Search the section you want to change and update the text wrote there.
-- Press in commit changes in Github --> Automatic deploy to vercel.
+- Press in commit changes in Github --> Automatic deploy to vercel. 
